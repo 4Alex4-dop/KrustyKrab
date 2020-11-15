@@ -1,0 +1,102 @@
+var vakansii = [
+{
+	"id":1,
+	"FirmName":"1312",
+	"Address":"kgjhsdl dfds",
+	"Coords": [56,57],
+	"Specialise": "djhfds",
+	"NameVacanse":"nfdsfkjd dsfb",
+	"Phone":"8-343-432-32-43",
+	"Year":2019
+},
+{
+	"id":2,
+	"FirmName":"ООО Цветоцчки Про",
+	"Address":"kgjhsdl dfds",
+	"Coords":[56,58],
+	"Specialise": "цветочки",
+	"NameVacanse":"nfdsfkjd dsfb",
+	"Phone":"8-343-432-32-43",
+	"Year":2020
+},
+{
+	"id":3,
+	"FirmName":"1312",
+	"Address":"kgjhsdl dfds",
+	"Coords": [56,59],
+	"Specialise": "djhfds",
+	"NameVacanse":"nfdsfkjd dsfb",
+	"Phone":"8-343-432-32-43",
+	"Year":2022
+},
+{
+	"id":4,
+	"FirmName":"1312",
+	"Address":"kgjhsdl dfds",
+	"Coords": [56,60],
+	"Specialise": "djhfds",
+	"NameVacanse":"nfdsfkjd dsfb",
+	"Phone":"8-343-432-32-43",
+	"Year":2023
+},
+{
+	"id":5,
+	"FirmName":"1312",
+	"Address":"kgjhsdl dfds",
+	"Coords": [56,60],
+	"Specialise": "djhfds",
+	"NameVacanse":"nfdsfkjd dsfb",
+	"Phone":"8-343-432-32-43",
+	"Year":2023
+},
+{
+	"id":6,
+	"FirmName":"1312",
+	"Address":"kgjhsdl dfds",
+	"Coords": [56,60],
+	"Specialise": "djhfds",
+	"NameVacanse":"nfdsfkjd dsfb",
+	"Phone":"8-343-432-32-43",
+	"Year":2023
+},
+{
+	"id":7,
+	"FirmName":"1312",
+	"Address":"kgjhsdl dfds",
+	"Coords": [56,60],
+	"Specialise": "djhfds",
+	"NameVacanse":"nfdsfkjd dsfb",
+	"Phone":"8-343-432-32-43",
+	"Year":2022
+},
+{
+	"id":8,
+	"FirmName":"1312",
+	"Address":"kgjhsdl dfds",
+	"Coords": [56,60],
+	"Specialise": "djhfds",
+	"NameVacanse":"nfdsfkjd dsfb",
+	"Phone":"8-343-432-32-43",
+	"Year":2023
+},
+{
+	"id":9,
+	"FirmName":"1312",
+	"Address":"kgjhsdl dfds",
+	"Coords": [56,60],
+	"Specialise": "djhfds",
+	"NameVacanse":"nfdsfkjd dsfb",
+	"Phone":"8-343-432-32-43",
+	"Year":2022
+},
+{
+	"id":10,
+	"FirmName":"1312",
+	"Address":"kgjhsdl dfds",
+	"Coords": [56,60],
+	"Specialise": "djhfds",
+	"NameVacanse":"nfdsfkjd dsfb",
+	"Phone":"8-343-432-32-43",
+	"Year":2024
+},
+]

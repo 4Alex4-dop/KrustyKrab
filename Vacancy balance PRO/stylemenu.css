@@ -1,0 +1,97 @@
+    @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .box{}
+    .menu>.buttons{
+        flex-basis:280px;
+        margin-bottom: 1em;
+        margin-left: 15px;
+        padding: 0.5em 1em;
+        color: black;
+        outline: none;
+        background: transparent;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1em;
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+        transition: all .5s;
+    }
+
+    .buttons::before,
+    .buttons::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        background: #0b42a5;
+        z-index: -1;
+        transform: translate3d(0,-100%,0);
+        transition: all .5s;
+    }
+    .buttons::before{
+        background: #bad2ff;
+        z-index: -2;
+        transform: translate3d(0,0,0)
+    }
+    .buttons:hover{
+        color: white;
+    }
+    .buttons:hover::after{
+        transform: translate3d(0,0,0)
+    }
+
+    .menu>.curtainup{
+        transform-style: preserve-3d;
+        font-family: 'Oswald', sans-serif;
+    }
+    .curtainup::before,
+    .curtainup::after{
+        transform-origin: center center;
+        transform: scale(1,0);
+    }
+    .curtainup:hover::before,
+    .curtainup:hover::after{
+        transform: scale(1);
+
+    }
+    .list {
+        list-style-type: none;
+        position: absolute;
+        display: flow;
+        justify-content: space-between;
+        font-size: 30px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+    .list>li{
+        width: 70px;
+        height: 70px;
+        background: linear-gradient(45deg,#b400ff,#2709ac,#0e38d1);
+        background-size: 400% 400%;
+        text-align: center;
+        line-height: 2.4;
+        border-radius: 100%;
+        margin: 15px 0;
+        transition: all 0.3s ease;
+    }
+    .list>li:hover{
+        animation: gradient 10s ease infinite;
+        transform: scale(1.15);
+    }
+    @keyframes gradient {
+    50%{
+        background-position: 100% 0;
+    }
+    }
+    .list>li>a{
+        color: #fff;
+    }
